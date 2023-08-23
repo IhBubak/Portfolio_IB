@@ -1,12 +1,12 @@
 import React from 'react'
 
-const About = () => {
+const About = ({darkMode}) => {
   return (
-    <div name="about" className="w-full h-screen bg-[#023430] text-yellow-50">
+    <div name="about" className={`w-full h-screen bg-[#023430] text-yellow-50 ${darkMode ? 'bg-[#121212]' : 'bg-[#023430]'} ${darkMode ? 'text-[#19C37D]' : 'text-orange-300'}`}>
         <div className="flex flex-col justify-center items-center w-full h-full">
             <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 px-4">
                 <div className="sm:text-right pb-8 pl-4">
-                    <p className="text-4xl font-bold inline border-b-4 border-orange-300">
+                    <p className={`text-4xl font-bold inline border-b-4 ${darkMode ? 'border-[#19C37D]' : 'border-orange-300'}`}>
                         Über mich
                     </p>  
                 </div>
@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div>
                     <p>Aktuell befinde ich mich auf der Suche nach einem Praktikum bzw.
-                        einer werkstudentische Stelle, das/di mir die Chance bietet, meine
+                        einer werkstudentische Stelle, das/die mir die Chance bietet, meine
                         bisher erworbene Kenntnisse in meinem Studium weiter zu vertiefen
                         und auszubauen. 
                     </p>
