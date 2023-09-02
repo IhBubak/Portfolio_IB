@@ -10,7 +10,7 @@ function Navbar({darkMode, changeDarkMode}) {
   const handleClick = ()=> setNav(!nav)
 
   return (
-    <div className={`fixed w-full h-[80px] flex justify-between items-center px-4 ${darkMode ? 'bg-[#121212]' : 'bg-[#023430]'} ${darkMode ? 'text-[#19C37D]' : 'text-orange-300'}`}>
+    <div className={`fixed w-full h-[80px] flex justify-between items-center px-4 ${darkMode ? 'bg-[#121212]' : 'bg-gradient-to-r from-cyan-900 to-cyan-200'} ${darkMode ? 'text-[#19C37D]' : 'text-orange-300'}`}>
         <div>
         <img src={Pexel} alt="Pexel Image" style={{width: '70px', borderRadius: '50%'}}/>
         </div>
@@ -53,7 +53,7 @@ function Navbar({darkMode, changeDarkMode}) {
           {!nav ? <FaBars/> : <FaTimes/>}
         </div>
         {/**Mobile */}
-        <div className={!nav? "hidden" : `absolute top-0 left-0 w-full h-screen ${darkMode ? 'bg-[#121212]' : 'bg-[#023430]'} flex flex-col justify-center items-center`}>
+        <div className={!nav? "hidden" : `absolute top-0 left-0 w-full h-screen ${darkMode ? 'bg-[#121212]' : 'bg-gradient-to-r from-cyan-900 to-cyan-200'} flex flex-col justify-center items-center`}>
         <ul>
             <li className="py-6 text-4xl">
               <Link onClick={handleClick} to="home" smooth={true} duration={500}>
@@ -91,13 +91,13 @@ function Navbar({darkMode, changeDarkMode}) {
         <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
           <ul>
             <li className="w-[160px] h-[60px] flex justify-between items-center">
-              <a className="flex justify-between items-center w-full text-yellow-50 ml-[-110px] hover:ml-[-10px] duration-300" href='/'>Facebook<FaFacebook size={30}/></a>
+              <a className="flex justify-between items-center w-full text-yellow-50 ml-[-110px] hover:ml-[-10px] duration-300" href='https://facebook.com/'>Facebook<FaFacebook size={30}/></a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center">
-              <a className="flex justify-between items-center w-full text-yellow-50 ml-[-110px] hover:ml-[-10px] duration-300" href='/'>Github<FaGithub size={30}/></a>
+              <a className="flex justify-between items-center w-full text-yellow-50 ml-[-110px] hover:ml-[-10px] duration-300" href='https://github.com/IhBubak'>Github<FaGithub size={30}/></a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center">
-              <a className="flex justify-between items-center w-full text-yellow-50 ml-[-110px] hover:ml-[-10px] duration-300" href='/'>Whatsapp<FaWhatsapp size={30}/></a>
+              <a className="flex justify-between items-center w-full text-yellow-50 ml-[-110px] hover:ml-[-10px] duration-300" href='https://www.whatsapp.com/'>Whatsapp<FaWhatsapp size={30}/></a>
             </li>
           </ul>
         </div>

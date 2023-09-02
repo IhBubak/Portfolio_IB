@@ -10,7 +10,7 @@ import gth from "../assets/github.png"
 
 const Skills = ({darkMode}) => {
   return (
-    <div name='skills' className={`w-full h-screen ${darkMode ? 'bg-[#121212]' : 'bg-[#023430]'} ${darkMode ? 'text-[#19C37D]' : 'text-orange-300'}`}>
+    <div name='skills' className={`w-full h-screen ${darkMode ? 'bg-[#121212]' : 'bg-gradient-to-r from-cyan-900 to-cyan-200'} ${darkMode ? 'text-[#19C37D]' : 'text-orange-300'}`}>
       {/***/}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
