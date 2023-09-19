@@ -1,12 +1,12 @@
 import React from 'react'
-import html from "../assets/html.png"
-import css from "../assets/css.png"
-import js from "../assets/javascript.png"
+import java from "../assets/java2.png"
+import js from "../assets/js.png"
+import ts from "../assets/ts.png"
 import rc from "../assets/react.png"
-import nd from "../assets/node.png"
-import tw from "../assets/tailwind.png"
+import ex from "../assets/expressjs.svg"
+import sb from "../assets/springboot.png"
 import mng from "../assets/mongo.png"
-import gth from "../assets/github.png"
+import pstg from "../assets/PostgreSQL_logo.png"
 
 const Skills = ({darkMode}) => {
   return (
@@ -20,36 +20,36 @@ const Skills = ({darkMode}) => {
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
-                  <img className='w-20 mx-auto' src={html} alt="HTML icon" />
-                  <p className='my-4'>HTML</p>
+                  <img className='w-20 mx-auto' src={java} alt="HTML icon" />
+                  <p className='my-4'>JAVA</p>
               </div>
               <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
-                  <img className='w-20 mx-auto' src={css} alt="CSS icon" />
-                  <p className='my-4'>CSS</p>
-              </div>
-              <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
-                  <img className='w-20 mx-auto' src={js} alt="JS icon" />
+                  <img className='w-20 mx-auto' src={js} alt="CSS icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
-                  <img className='w-20 mx-auto' src={rc} alt="RC icon" />
-                  <p className='my-4'>REACT</p>
+                  <img className='w-20 mx-auto' src={ts} alt="JS icon" />
+                  <p className='my-4'>TYPESCRIPT</p>
               </div>
               <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
-                  <img className='w-20 mx-auto' src={gth} alt="GTH icon" />
-                  <p className='my-4'>GITHUB</p>
-              </div>
-              <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
-                  <img className='w-20 mx-auto' src={nd} alt="ND icon" />
-                  <p className='my-4'>NODE.JS</p>
-              </div>
-              <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
-                  <img className='w-20 mx-auto' src={mng} alt="MNG icon" />
+                  <img className='w-20 mx-auto' src={mng} alt="RC icon" />
                   <p className='my-4'>MONGODB</p>
               </div>
               <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
-                  <img className='w-20 mx-auto' src={tw} alt="TW icon" />
-                  <p className='my-4'>TAILWIND</p>
+                  <img className='w-20 mx-auto' src={pstg} alt="GTH icon" />
+                  <p className='my-4'>POSTGRES</p>
+              </div>
+              <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
+                  <img className='w-20 mx-auto' src={ex} alt="ND icon" />
+                  <p className='my-4'>EXPRESS.JS</p>
+              </div>
+              <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
+                  <img className='w-20 mx-auto' src={sb} alt="MNG icon" />
+                  <p className='my-4'>SpringBoot</p>
+              </div>
+              <div className={`shadow-md ${darkMode ? 'shadow-[#19C37D]' : 'shadow-orange-300'} hover:scale-110 duration-500 rounded-lg`}>
+                  <img className='w-20 mx-auto' src={rc} alt="TW icon" />
+                  <p className='my-4'>REACT</p>
               </div>
           </div>
       </div>

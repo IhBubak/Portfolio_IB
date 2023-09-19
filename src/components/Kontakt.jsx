@@ -7,9 +7,9 @@ const Kontakt = ({darkMode}) => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className={`text-4xl font-bold inline border-b-4 ${darkMode ? 'border-[#19C37D]' : 'border-orange-300'} `}>Kontakt</p>
-              <p className='py-4'>Nachrichten werde ich in getForm.io erhalten</p>
+              <p className='py-4'>Sie Können gerne mit mir Kontakt aufnehmen, Nachrichten werde ich in getForm.io erhalten</p>
           </div>
-          <form method='POST' action='' className='flex flex-col w-full'>
+          <form method='POST' action='https://getform.io/f/b5e69644-7f3e-4851-b2f7-eceafd03a89a' className='flex flex-col w-full'>
             <input className='bg-yellow-50 p-2 rounded-md' type="text" placeholder='Name' name='name' />
             <input className='my-4 p-2 bg-yellow-50 rounded-md' type="email" placeholder='Email' name='email' />
             <textarea className='bg-yellow-50 p-2 rounded-md' name="message" rows="10" placeholder='Nachricht'></textarea>

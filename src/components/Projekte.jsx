@@ -16,9 +16,9 @@ const Projekte = ({darkMode}) => {
                 style={{backgroundImage: `url(${javac})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
                     <div className={`${darkMode ? 'group-hover:bg-[#19C37D]' : 'group-hover:bg-orange-300'} group-hover:bg-opacity-70 transition duration-300 rounded-lg w-full`}>
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-yellow-50 tracking-wider">ChatApp with MERN</span>
+                            <span className="text-2xl font-bold text-yellow-50 tracking-wider">BookingApp with MERN</span>
                             <div className="pt-8 text-center">
-                                <a href="https://github.com/IhBubak/ChatApp">
+                                <a href="https://github.com/IhBubak/BookingApp">
                                     <button className={`text-center rounded-lg px-4 py-3 m-2 ${darkMode ? 'bg-[#19C37D]' : 'bg-orange-300'} text-yellow-50 font-bold text-lg`}>
                                         GitHub Repo for Code
                                     </button>
@@ -31,7 +31,7 @@ const Projekte = ({darkMode}) => {
                     style={{backgroundImage: `url(${javac})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
                         <div className={`${darkMode ? 'group-hover:bg-[#19C37D]' : 'group-hover:bg-orange-300'} group-hover:bg-opacity-70 transition duration-300 rounded-lg w-full`}>
                             <div className="opacity-0 group-hover:opacity-100 group-hover:w-full">
-                                <span className="text-2xl font-bold text-yellow-50 tracking-wider">E-commerce with MERN</span>
+                                <span className="text-2xl font-bold text-yellow-50 tracking-wider">ChatApp with MERN</span>
                                 <div className="pt-8 text-center">
                                     <a href="">
                                         <button className={`text-center rounded-lg px-4 py-3 m-2 ${darkMode ? 'bg-[#19C37D]' : 'bg-orange-300'} text-yellow-50 font-bold text-lg`}>
